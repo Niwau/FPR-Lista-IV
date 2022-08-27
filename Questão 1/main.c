@@ -12,13 +12,6 @@
 int main(){
     char nome[30] = {"Guilherme"};
     char sobrenome[30] = {"Guilherme"};
-
-    if(strcmp(nome, sobrenome) == -1){
-        printf("Strings diferentes");
-    } else {
-        printf("Strings iguais");
-    }
-
 }
 
 int strlen(char string[]){
